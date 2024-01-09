@@ -14,6 +14,7 @@
 
 .cards .cards-card-body {
   margin: 16px;
+  font-size: var(--body-font-size-s);
 }
 
 .cards .cards-card-image {
