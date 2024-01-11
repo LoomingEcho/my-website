@@ -12,12 +12,12 @@
 
  :root {
   /* colors */
-  --link-color: #8098fa;
-  --link-hover-color: #6685ff;
+  --link-color: #00081f;
+  --link-hover-color: #062146;
   --background-color: #bed4ff;
-  --overlay-background-color: #9cb0da;
-  --highlight-background-color: #144C57;
-  --text-color: #ffffff;
+  --overlay-background-color: #36c4e0;
+  --highlight-background-color: #36B9D3;
+  --text-color: #141414;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback;
