@@ -14,9 +14,9 @@
   /* colors */
   --link-color: #00081f;
   --link-hover-color: #062146;
-  --background-color: #bed4ff;
-  --overlay-background-color: #36c4e0;
-  --highlight-background-color: #36B9D3;
+  --background-color: #f1f5f6;
+  --overlay-background-color: rgba(255, 255, 255, 0.2);
+  --highlight-background-color: #6e0a0a;
   --text-color: #141414;
 
   /* fonts */
