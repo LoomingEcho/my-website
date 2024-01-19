@@ -3,11 +3,13 @@
   "private": true,
   "version": "1.3.0",
   "description": "Starter project for Adobe Helix",
+  "type": "module",
   "scripts": {
-    "start": "aem up",
+    "start": "node sass-compile.js & aem up",
     "lint:js": "eslint .",
     "lint:css": "stylelint blocks/**/*.css styles/*.css",
     "lint": "npm run lint:js && npm run lint:css",
+    "trasplie:scss": "node sass-compile.js",
     "semantic-release": "semantic-release --debug"
   },
   "repository": {
@@ -31,6 +33,7 @@
     "eslint": "8.54.0",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-plugin-import": "2.29.0",
+    "sass": "^1.69.7",
     "stylelint": "15.11.0",
     "stylelint-config-standard": "34.0.0"
   }
