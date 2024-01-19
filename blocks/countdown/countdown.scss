@@ -1,0 +1,53 @@
+.countdown-wrapper {
+  text-align: center;
+}
+
+.countdown {
+  display: inline-grid;
+  min-height: 62px;
+  grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr;
+  gap: 0;
+
+  @media (width >= 768px) {
+    min-height: 70px;
+  }
+
+  @media (width >= 1298px) {
+    min-height: 86px;
+  }
+
+  &__separator {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 36px;
+  }
+
+  &__number-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    @media (width >= 1298px) {
+      padding: 0 4px;
+    }
+  }
+
+  &__number {
+    /* Add missing font styling for breakpoints*/
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 36px;
+    margin: 0 0 8px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  &__number-label {
+    /* Add missing font styling for breakpoints*/
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 0;
+  }
+}
