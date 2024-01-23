@@ -9,7 +9,7 @@
     "lint:js": "eslint .",
     "lint:css": "stylelint blocks/**/*.css styles/*.css",
     "lint": "npm run lint:js && npm run lint:css",
-    "trasplie:scss": "node sass-compile.js",
+    "trasplie:scss": "node sass-compile.js & git add ./blocks/**/**.css",
     "semantic-release": "semantic-release --debug",
     "prepare": "husky install"
   },
