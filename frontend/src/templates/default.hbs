@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>{{title}}</title>
+
+  <link href="{{nestedPath}}../../css/vic.app.css" media="all" rel="stylesheet">
+</head>
+
+<body>
+  <div class="vic-m-page">
+
+    <main class="vic-m-page-main">
+      {% body%}
+    </main>
+
+  </div>
+
+  <div id="vic-app-config" data-config-url="/api/configuration"></div>
+
+  <script nomodule src="{{nestedPath}}../../js/vic.app.legacy.js"></script>
+  <script type="module" src="{{nestedPath}}../../js/vic.app.js"></script>
+
+</body>
+
+</html>

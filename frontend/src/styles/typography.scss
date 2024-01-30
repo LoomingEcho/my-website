@@ -1,0 +1,347 @@
+// LSG-Typography-Type
+// Placeholder-Tag: h1
+// Placeholder-Word-Count: 8
+%vic-type__h1 {
+  font-family: $vic-typo__univers;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 44px;
+
+  @include breakpoint($mq-2-and-up) {
+    font-size: 56px;
+    line-height: 60px;
+  }
+
+  @include breakpoint($mq-4-and-up) {
+    font-size: 72px;
+    line-height: 72px;
+  }
+}
+
+.vic-h1 {
+  @extend %vic-type__h1;
+}
+
+// LSG-Typography-Type
+// Placeholder-Tag: h2
+// Placeholder-Word-Count: 10
+%vic-type__h2 {
+  font-family: $vic-typo__univers;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 36px;
+
+  @include breakpoint($mq-2-and-up) {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  @include breakpoint($mq-4-and-up) {
+    font-size: 56px;
+    line-height: 60px;
+  }
+}
+
+.vic-h2 {
+  @extend %vic-type__h2;
+}
+
+// LSG-Typography-Type
+// Placeholder-Tag: h3
+// Placeholder-Word-Count: 10
+%vic-type__h3 {
+  font-family: $vic-typo__univers;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 32px;
+
+  @include breakpoint($mq-2-and-up) {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  @include breakpoint($mq-4-and-up) {
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
+
+.vic-h3 {
+  @extend %vic-type__h3;
+}
+
+// LSG-Typography-Type
+// Placeholder-Tag: h4
+// Placeholder-Word-Count: 10
+%vic-type__h4 {
+  margin: 0 0 16px;
+  font-family: $vic-typo__univers;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+
+  @include breakpoint($mq-4-and-up) {
+    margin: 0 0 24px;
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+.vic-h4 {
+  @extend %vic-type__h4;
+}
+
+// LSG-Typography-Type
+// Placeholder-Tag: h5
+// Placeholder-Word-Count: 10
+%vic-type__h5 {
+  margin: 0 0 8px;
+  font-family: $vic-typo__univers;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+
+  @include breakpoint($mq-4-and-up) {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+.vic-h5 {
+  @extend %vic-type__h5;
+}
+
+// LSG-Typography-Type
+// Placeholder-Tag: h6
+// Placeholder-Word-Count: 10
+%vic-type__h6 {
+  font-family: $vic-typo__univers;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.vic-h6 {
+  @extend %vic-type__h6;
+}
+
+// LSG-Typography-Type
+// Placeholder-Word-Count: 100
+%vic-type__p {
+  font-family: $vic-typo__inter;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.vic-p {
+  @extend %vic-type__p;
+}
+
+// LSG-Typography-Type
+// Placeholder-Word-Count: 100
+%vic-type__p--intro {
+  font-family: $vic-typo__inter;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 28px;
+}
+
+.vic-p--intro {
+  @extend %vic-type__p--intro;
+}
+
+// LSG-Typography-Type
+// Placeholder-Text: Bodytext Lists
+%vic-type__bodytext-lists {
+  font-family: $vic-typo__inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.vic-bodytext-lists {
+  @extend %vic-type__bodytext-lists;
+}
+
+// LSG-Typography-Type
+// Placeholder-Word-Count: 100
+%vic-type__meta {
+  font-family: $vic-typo__inter;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 18px;
+}
+
+.vic-meta {
+  @extend %vic-type__meta;
+}
+
+// LSG-Typography-Type
+// Placeholder-Text: Button Label
+%vic-type__button-label {
+  font-family: $vic-typo__inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.vic-button-label {
+  @extend %vic-type__button-label;
+}
+
+// LSG-Typography-Type
+// Placeholder-Text: Button Label Small
+%vic-type__button-label--small {
+  font-family: $vic-typo__inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.vic-button-label--small {
+  @extend %vic-type__button-label--small;
+}
+
+// LSG-Typography-Type
+// Placeholder-Text: Table header
+%vic-type__table-header {
+  font-family: $vic-typo__inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.vic-table-header {
+  @extend %vic-type__table-header;
+}
+
+// LSG-Typography-Type
+// Placeholder-Text: Navigation Items
+%vic-type__navigation-items {
+  font-family: $vic-typo__inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.vic-navigation-items {
+  @extend %vic-type__navigation-items;
+}
+
+// LSG-Typography-Type
+// Placeholder-Text: Learn More Links
+%vic-type__learn-more-links {
+  font-family: $vic-typo__inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.vic-learn-more-links {
+  @extend %vic-type__learn-more-links;
+}
+
+// LSG-Typography-Type
+// Placeholder-Text: Meta Link List
+%vic-type__meta-link-list {
+  font-family: $vic-typo__inter;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+}
+
+.vic-meta-link-list {
+  @extend %vic-type__meta-link-list;
+}
+
+// Placeholder-Text: Form Fields
+%vic-type__form-fields {
+  font-family: $vic-typo__inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.vic-form-fields {
+  @extend %vic-type__form-fields;
+}
+
+// LSG-Typography-Type
+// Placeholder-Text: Form Field Label
+%vic-type__form-field-label {
+  font-family: $vic-typo__inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.vic-form-field-label {
+  @extend %vic-type__form-field-label;
+}
+
+// LSG-Typography-Type
+// Placeholder-Text: Pagination Dots ...
+%vic-type__pagination-dots {
+  font-family: $vic-typo__inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.vic-pagination-dots {
+  @extend %vic-type__pagination-dots;
+}
+
+// LSG-Typography-Type
+// Placeholder-Text: Vitodens-200
+%vic-type__product-name {
+  color: $vic-color__red-050;
+  font-family: $vic-typo__v;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 15px;
+}
+
+.vic-product-name {
+  @extend %vic-type__product-name;
+}
+
+// LSG-Typography-Type
+// Placeholder-Text: Benefits Label
+%vic-type__benefits-label {
+  font-family: $vic-typo__inter;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.vic-benefits-label {
+  @extend %vic-type__benefits-label;
+}
+
+// LSG-Typography-Type
+// Placeholder-Text: Hero divider
+%vic-type__hero-divider {
+  font-family: $vic-typo__inter;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.vic-hero-divider {
+  @extend %vic-type__hero-divider;
+}
+
+// Placeholder-Text: Accordion toggle
+%vic-type__filter-accordion-toggle {
+  font-family: $vic-typo__inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.vic-filter-accordion-toggle {
+  @extend %vic-type__filter-accordion-toggle;
+}

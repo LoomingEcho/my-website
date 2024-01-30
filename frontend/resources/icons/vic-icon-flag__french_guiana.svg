@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>french_guiana</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flags" transform="translate(-1260.000000, -2070.000000)">
+            <g id="french_guiana" transform="translate(1260.000000, 2070.000000)">
+                <circle id="green" fill="#1AAF5D" cx="90" cy="90" r="90"></circle>
+                <path d="M153.63961,153.63961 C137.352814,169.926407 114.852814,180 90,180 C40.2943725,180 0,139.705627 0,90 C0,65.1471863 10.0735931,42.6471863 26.3603897,26.3603897 L153.63961,153.63961 Z" id="yellow" fill="#F2C500"></path>
+                <polygon id="star" fill="#E94B35" points="89.580639 105.027986 72.5348667 116.461493 78.1413446 96.716852 62 84.0385072 82.5107663 83.269155 89.580639 64 96.6505117 83.269155 117.161278 84.0385072 101.019933 96.716852 106.626411 116.461493"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

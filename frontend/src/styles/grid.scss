@@ -1,0 +1,229 @@
+// Breakpoints
+$bp-0: 0;
+$bp-1: 768px;
+$bp-2: 992px;
+$bp-3: 1332px;
+
+$bp-0-max: $bp-1 - 1;
+$bp-1-max: $bp-2 - 1;
+$bp-2-max: $bp-3 - 1;
+
+// Media Query Variables
+// Use the following definitions to create media query output
+// with `@include breakpoint()`.
+// $e.g. @include breakpoint($mq-5) {}
+
+$mq-2-and-up: min-width $bp-1;
+$mq-3-and-up: min-width $bp-2;
+$mq-4-and-up: min-width $bp-3;
+
+$mq-1-min: min-width $bp-0;
+$mq-2-min: min-width $bp-1;
+$mq-3-min: min-width $bp-2;
+$mq-4-min: min-width $bp-3;
+
+$mq-1-max: max-width $bp-0-max;
+$mq-2-max: max-width $bp-1-max;
+$mq-3-max: max-width $bp-2-max;
+
+$mq-1: max-width $bp-0-max;
+$mq-2: $mq-2-min $mq-2-max;
+$mq-3: $mq-3-min $mq-3-max;
+$mq-4: min-width $bp-3;
+
+// Variable maps to create column classes
+$breakpoints: (
+  1: "min",
+  2: $mq-2-and-up,
+  3: $mq-3-and-up,
+  4: $mq-4-and-up,
+);
+
+// $grid-gutter: 30px;
+$grid-gutter: (
+  1: 15px,
+  2: 15px,
+  3: 15px,
+  4: 15px,
+);
+
+$grid-columns: 12;
+
+%vic-grid-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+
+  @include breakpoint($mq-2-and-up) {
+    grid-template-columns: repeat(12, 1fr);
+  }
+}
+
+%vic-grid-container,
+.vic-grid {
+  width: 100%;
+  max-width: 1322px;
+  padding: 0 32px;
+
+  @include breakpoint($mq-3-and-up) {
+    padding: 0 64px;
+  }
+
+  @include breakpoint(min-width 1194px) {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.vic-grid-row {
+  display: flex;
+  min-width: 100%;
+  flex-wrap: wrap;
+
+  @for $curBp from 1 through length($breakpoints) {
+    @if $curBp == 1 {
+      margin: 0 -#{map-get($grid-gutter, $curBp)};
+    } @else {
+      @include breakpoint(map-get($breakpoints, $curBp)) {
+        margin: 0 -#{map-get($grid-gutter, $curBp)};
+      }
+    }
+  }
+
+  .vic-grid-col--centered {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+// disable stylelint for mixin
+/* stylelint-disable */
+@mixin generate-grid() {
+  @each $minMq, $mqQuery in $breakpoints {
+    @for $col from 1 through $grid-columns {
+      @include generate-col($col, $minMq, $mqQuery);
+    }
+
+    @for $col from 1 through $grid-columns {
+      @include generate-offset($col, $minMq, $mqQuery);
+    }
+
+    @for $col from 1 through $grid-columns {
+      @include generate-order($col, $minMq, $mqQuery);
+    }
+  }
+}
+
+@mixin generate-col($col, $minMq, $mqQuery) {
+  .vic-grid-col-mq#{$minMq}-#{$col} {
+    @for $curBp from $minMq through length($breakpoints) {
+      @if $curBp == 1 {
+        margin: 0 map-get($grid-gutter, $curBp);
+        flex-basis: calc((100% / #{$grid-columns / $col}) - #{map-get($grid-gutter, $curBp) * 2});
+        max-width: calc((100% / #{$grid-columns / $col}) - #{map-get($grid-gutter, $curBp) * 2});
+      } @else {
+        @include breakpoint(map-get($breakpoints, $curBp)) {
+          max-width: calc((100% / #{$grid-columns / $col}) - #{map-get($grid-gutter, $curBp) * 2});
+          flex-basis: calc((100% / #{$grid-columns / $col}) - #{map-get($grid-gutter, $curBp) * 2});
+          margin: 0 map-get($grid-gutter, $curBp);
+        }
+      }
+    }
+  }
+  %vic-grid-container-col-mq#{$minMq}-#{$col} {
+    @for $curBp from $minMq through length($breakpoints) {
+      @if $curBp == 1 {
+        flex-basis: calc(
+          ((100% + #{map-get($grid-gutter, $curBp) * 2}) / 12) * #{$col} - #{map-get($grid-gutter, $curBp) * 2}
+        );
+        max-width: calc(
+          ((100% + #{map-get($grid-gutter, $curBp) * 2}) / 12) * #{$col} - #{map-get($grid-gutter, $curBp) * 2}
+        );
+      } @else {
+        @include breakpoint(map-get($breakpoints, $curBp)) {
+          flex-basis: calc(
+            ((100% + #{map-get($grid-gutter, $curBp) * 2}) / 12) * #{$col} - #{map-get($grid-gutter, $curBp) * 2}
+          );
+          max-width: calc(
+            ((100% + #{map-get($grid-gutter, $curBp) * 2}) / 12) * #{$col} - #{map-get($grid-gutter, $curBp) * 2}
+          );
+        }
+      }
+    }
+  }
+}
+
+@mixin generate-offset($col, $minMq, $mqQuery) {
+  .vic-grid-offset-mq#{$minMq}-#{$col} {
+    @for $curBp from $minMq through length($breakpoints) {
+      @if $curBp == 1 {
+        @if $col == 0 {
+          margin-left: #{map-get($grid-gutter, $minMq)};
+        } @else {
+          margin-left: calc((100% / #{$grid-columns / $col}) + #{map-get($grid-gutter, $curBp)});
+        }
+      } @else {
+        @include breakpoint(map-get($breakpoints, $curBp)) {
+          @if $col == 0 {
+            margin-left: #{map-get($grid-gutter, $curBp)};
+          } @else {
+            margin-left: calc((100% / #{$grid-columns / $col}) + #{map-get($grid-gutter, $curBp)});
+          }
+        }
+      }
+    }
+  }
+  %vic-grid-container-offset-mq#{$minMq}-#{$col} {
+    @for $curBp from $minMq through length($breakpoints) {
+      @if $curBp == 1 {
+        @if $col == 0 {
+          margin-left: 0;
+        } @else {
+          margin-left: calc((100% / #{$grid-columns / $col}) + #{map-get($grid-gutter, $curBp)});
+          margin-left: calc(((100% + #{map-get($grid-gutter, $curBp) * 2}) / 12));
+        }
+      } @else {
+        @include breakpoint(map-get($breakpoints, $curBp)) {
+          @if $col == 0 {
+            margin-left: 0;
+          } @else {
+            margin-left: calc(((100% + #{map-get($grid-gutter, $curBp) * 2}) / 12) * #{$col});
+          }
+        }
+      }
+    }
+  }
+}
+
+@mixin generate-order($col, $minMq, $mqQuery) {
+  .vic-grid-order-mq#{$minMq}-#{$col} {
+    @if $minMq == 1 {
+      order: $col;
+    } @else {
+      @include breakpoint($mqQuery) {
+        order: $col;
+      }
+    }
+  }
+  .vic-grid-order-mq#{$minMq}-first {
+    @if $minMq == 1 {
+      order: -1;
+    } @else {
+      @include breakpoint($mqQuery) {
+        order: -1;
+      }
+    }
+  }
+  .vic-grid-order-mq#{$minMq}-last {
+    @if $minMq == 1 {
+      order: $grid-columns + 1;
+    } @else {
+      @include breakpoint($mqQuery) {
+        order: $grid-columns + 1;
+      }
+    }
+  }
+}
+
+@include generate-grid();
+/* stylelint-enable */

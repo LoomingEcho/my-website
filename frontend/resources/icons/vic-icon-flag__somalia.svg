@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>somalia</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flags" transform="translate(-1530.000000, -5310.000000)">
+            <g id="somalia" transform="translate(1530.000000, 5310.000000)">
+                <circle id="blue" fill="#2C97DE" cx="90" cy="90" r="90"></circle>
+                <polygon id="star" fill="#FFFFFF" points="90.5 110.074999 64.9313415 125.692239 71.8830692 96.5490075 49.1290415 77.0577607 78.994104 74.6634928 90.5 47 102.005896 74.6634928 131.870958 77.0577607 109.116931 96.5490075 116.068658 125.692239"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

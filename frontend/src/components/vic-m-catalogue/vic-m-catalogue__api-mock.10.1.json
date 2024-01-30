@@ -1,0 +1,92 @@
+{
+  "results": {
+    "numberResults" : 15,
+    "items" : [
+      {
+        "headline": "11 Vitodens 111-W",
+        "subheadline": "A high performance storage combi boiler for the family home",
+        "text":
+        "Compact, rapid and reliable, the Vitodens 111-W is a high performance, wall mounted storage boiler ideal for family homes with a high demand for hot water.",
+        "url": "#",
+        "type": "PRODUCT",
+        "media": {
+          "alt": "Alt Text",
+          "renditions": {
+            "60": "https://satyr.dev/60x1:1/9B111E",
+            "320": "https://satyr.dev/320x1:1/9B111E",
+            "640": "https://satyr.dev/640x1:1/9B111E",
+            "1280": "https://satyr.dev/1280x1:1/9B111E"
+          }
+        }
+      },
+      {
+        "headline": "12 Vitodens 111-W",
+        "subheadline": "A high performance storage combi boiler for the family home",
+        "text":
+        "Compact, rapid and reliable, the Vitodens 111-W is a high performance, wall mounted storage boiler ideal for family homes with a high demand for hot water.",
+        "url": "#",
+        "type": "PRODUCT",
+        "media": {
+          "alt": "Alt Text",
+          "renditions": {
+            "60": "https://satyr.dev/60x1:1/C51D34",
+            "320": "https://satyr.dev/320x1:1/C51D34",
+            "640": "https://satyr.dev/640x1:1/C51D34",
+            "1280": "https://satyr.dev/1280x1:1/C51D34"
+          }
+        }
+      },
+      {
+        "headline": "13 Vitodens 111-W",
+        "subheadline": "A high performance storage combi boiler for the family home",
+        "text":
+        "Compact, rapid and reliable, the Vitodens 111-W is a high performance, wall mounted storage boiler ideal for family homes with a high demand for hot water.",
+        "url": "#",
+        "type": "PRODUCT",
+        "media": {
+          "alt": "Alt Text",
+          "renditions": {
+            "60": "https://satyr.dev/60x1:1/4C514A",
+            "320": "https://satyr.dev/320x1:1/4C514A",
+            "640": "https://satyr.dev/640x1:1/4C514A",
+            "1280": "https://satyr.dev/1280x1:1/4C514A"
+          }
+        }
+      },
+      {
+        "headline": "14 Vitodens 111-W",
+        "subheadline": "A high performance storage combi boiler for the family home",
+        "text":
+        "Compact, rapid and reliable, the Vitodens 111-W is a high performance, wall mounted storage boiler ideal for family homes with a high demand for hot water.",
+        "url": "#",
+        "type": "PRODUCT",
+        "media": {
+          "alt": "Alt Text",
+          "renditions": {
+            "60": "https://satyr.dev/60x1:1/3E3B32",
+            "320": "https://satyr.dev/320x1:1/3E3B32",
+            "640": "https://satyr.dev/640x1:1/3E3B32",
+            "1280": "https://satyr.dev/1280x1:1/3E3B32"
+          }
+        }
+      },
+      {
+        "headline": "15 Vitodens 111-W",
+        "subheadline": "A high performance storage combi boiler for the family home",
+        "text":
+        "Compact, rapid and reliable, the Vitodens 111-W is a high performance, wall mounted storage boiler ideal for family homes with a high demand for hot water.",
+        "url": "#",
+        "type": "PRODUCT",
+        "media": {
+          "alt": "Alt Text",
+          "renditions": {
+            "60": "https://satyr.dev/60x1:1/1D1E33",
+            "320": "https://satyr.dev/320x1:1/1D1E33",
+            "640": "https://satyr.dev/640x1:1/1D1E33",
+            "1280": "https://satyr.dev/1280x1:1/1D1E33"
+          }
+        }
+      }
+    ]
+  }
+}

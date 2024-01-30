@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>burkina_faso</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flags" transform="translate(-720.000000, -990.000000)">
+            <g id="burkina_faso" transform="translate(720.000000, 990.000000)">
+                <path d="M180,90 L0,90 C0,139.70563 40.2943701,180 90,180 C139.70563,180 180,139.70563 180,90 L180,90 Z" id="green" fill="#1AAF5D"></path>
+                <path d="M0,90 L180,90 C180,40.2943701 139.70563,0 90,0 C40.2943701,0 0,40.2943701 0,90 L0,90 Z" id="red" fill="#E94B35"></path>
+                <polygon id="star" fill="#F2C500" points="55.9391578 82.3102473 81.9637531 82.3102473 90.0027686 57.4221182 98.0417707 82.3102473 124.066366 82.3102473 103.01506 97.689755 111.054075 122.577882 90.0027686 107.198361 68.9514621 122.577882 76.9904643 97.689755 55.9391578 82.3102473 55.9391578 82.3102473 55.9391578 82.3102473"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

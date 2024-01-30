@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="vic-lsg-colors">
+  {{#pv-colors "src/styles/colors.scss" "$vic-color" this}}
+    <div class="vic-lsg-colors__group">
+      <h3 class="vic-lsg-colors__group-headline">{{this.groupName}}</h3>
+
+      {{#if this.groupDescription}}
+        <h4 class="vic-lsg-colors__group-description">{{this.groupDescription}}</h4>
+      {{/if}}
+
+      <div class="vic-lsg-colors__colors">
+        {{#each this.colorInfos}}
+          <div class="vic-lsg-colors__color">
+            <div class="vic-lsg-colors__color-tile" onclick="copyToClipboard('{{pv-replace this.hex ";" ""}}', 'HEX-Code')" title="Copy to Clipboard!" data-hex-value="{{pv-replace this.hex ";" ""}}" style="background: {{this.hex}}"></div>
+            <div class="vic-lsg-colors__color-description">
+              <p class="vic-lsg-colors__colors-name"  onclick="copyToClipboard('{{this.name}}', 'SCSS var-name')" title="Copy scss variable to Clipboard!" >{{pv-replace this.name "$vic-color__" ""}}</p>
+            </div>
+          </div>
+        {{/each}}
+      </div>
+    </div>
+  {{/pv-colors}}
+</div>

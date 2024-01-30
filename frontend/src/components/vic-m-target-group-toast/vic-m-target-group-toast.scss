@@ -1,0 +1,96 @@
+.vic-m-target-group-toast {
+  position: fixed;
+  z-index: $z-index__toast;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: rgba($color: $vic-color__black-090, $alpha: 0);
+
+  &.vic-state-open {
+    background: rgba($color: $vic-color__black-090, $alpha: 0.25);
+  }
+
+  &__content {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    padding: 32px;
+    border-radius: 10px;
+    background: $vic-color__white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.08),
+      inset 0 1px 0 $vic-color__black-020;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+
+    .vic-state-open > & {
+      opacity: 1;
+    }
+  }
+
+  &__close-btn {
+    @include vic-focus-ring(0, 100%, $vic-color__black-020);
+    /* stylelint-disable order/order */
+    position: absolute;
+    /* stylelint-enable order/order */
+    top: 32px;
+    right: 32px;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 100%;
+    margin-top: -8px;
+    margin-right: -8px;
+    color: $vic-color__black-070;
+    background: transparent;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+
+    &:focus {
+      outline: 0;
+    }
+
+    &:hover {
+      background: $vic-color__black-000;
+    }
+
+    &:active {
+      background: $vic-color__black-010;
+    }
+  }
+
+  &__close-icon {
+    width: 24px;
+    height: 24px;
+    pointer-events: none;
+  }
+
+  &__headline {
+    @extend %vic-type__h5;
+
+    padding-right: 40px;
+    margin: 0 0 16px;
+  }
+
+  &__text {
+    @extend %vic-type__meta;
+
+    margin: 0 0 24px;
+  }
+
+  &__selection-cta {
+    width: 100%;
+    margin: 0 0 16px;
+  }
+
+  &__stay-cta {
+    width: 100%;
+    margin: 8px 0 0;
+  }
+}

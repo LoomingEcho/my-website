@@ -1,0 +1,10 @@
+// Inter
+@font-face {
+  font-family: "V";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("../../resources/fonts/viessmann/viessmann.woff") format("woff");
+}
+
+$vic-typo__v: "V", sans-serif;

@@ -1,0 +1,19 @@
+// use for ul, ol in case the browser default styling shouldn't be used
+// @example `ul.vic-some-ui-element {@extend %vic-reset-list-styling;}`
+%vic-reset-list-styling {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+%vic-reset-button-style {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  outline: 0;
+}
+
+%vic-card-shadow {
+  box-shadow: 0 32px 64px rgba(0, 0, 0, 0.08), 0 16px 32px rgba(0, 0, 0, 0.08), 0 8px 16px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 $vic-color__black-020;
+}

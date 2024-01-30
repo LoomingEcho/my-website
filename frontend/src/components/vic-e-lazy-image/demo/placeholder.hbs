@@ -1,0 +1,40 @@
+---
+layout: default
+noToolbar: true
+src: 'resources/img/test-1__1280.jpeg'
+placeholderSrc: 'resources/img/test-1__60.jpeg'
+alt: "VIC Lazy Image with placeholder"
+aspectRatio: "16:9"
+nestedPath: "../"
+test:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+---
+
+<div class="vic-grid">
+  <div class="vic-grid-row">
+    {{#each this.test}}
+    <div class="vic-grid-col-mq1-12 vic-grid-col-mq2-6">
+        <vic-e-lazy-image
+          class=" vic-e-lazy-image {{../this.cssClasses}}"
+          loading-placeholder="{{pv-path @root ../this.placeholderSrc }}"
+          src="{{pv-path @root ../this.src}}"
+          alt="{{../this.alt}}"
+          aspect-ratio="{{../this.aspectRatio}}"
+          style="margin-bottom: 20px;"
+        >
+        </vic-e-lazy-image>
+    </div>
+    {{/each}}
+  </div>
+</div>

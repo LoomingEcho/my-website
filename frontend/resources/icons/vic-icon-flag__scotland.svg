@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>scotland</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flags" transform="translate(-1530.000000, -5040.000000)">
+            <g id="scotland" transform="translate(1530.000000, 5040.000000)">
+                <circle id="blue" fill="#227FBB" transform="translate(90.000000, 90.000000) scale(1, -1) translate(-90.000000, -90.000000) " cx="90" cy="90" r="90"></circle>
+                <path d="M19.3012177,34.3012177 L75,90 L75,90 L19.3012177,145.698782 C23.6947252,151.267834 28.7321664,156.305275 34.3012177,160.698782 L90,105 L145.698782,160.698782 C151.267834,156.305275 156.305275,151.267834 160.698782,145.698782 L105,90 L160.698782,34.3012177 C156.305275,28.7321664 151.267834,23.6947252 145.698782,19.3012177 L90,75 L34.3012177,19.3012177 C28.7321664,23.6947252 23.6947252,28.7321664 19.3012177,34.3012177 L19.3012177,34.3012177 Z" id="cross" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

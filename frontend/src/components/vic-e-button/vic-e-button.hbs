@@ -1,0 +1,28 @@
+---
+layout: default
+label: Button Text
+isRealButton: false
+---
+
+{{#if isRealButton}}
+  <button class="vic-e-button {{#if iconOnly}}vic-e-button--icon-only{{/if}} {{cssClasses}}"
+          {{#if disabled}}disabled{{/if}}
+          type="{{pv-choose this.type "button"}}"
+          {{{attributes}}}>
+    {{this.label}}
+    {{#if iconId}}
+    <vic-e-icon class="vic-e-icon" icon-id="{{iconId}}"></vic-e-icon>
+    {{/if}}
+  </button>
+{{else}}
+  <a href="{{this.href}}"
+     class="vic-e-button {{#if iconOnly}}vic-e-button--icon-only{{/if}} {{cssClasses}}"
+     {{#if disabled}}disabled{{/if}}
+     {{#if disabled}}tabindex="-1"{{/if}}
+     {{{attributes}}}>
+    {{this.label}}
+    {{#if iconId}}
+    <vic-e-icon class="vic-e-icon" icon-id="{{iconId}}"></vic-e-icon>
+    {{/if}}
+  </a>
+{{/if}}

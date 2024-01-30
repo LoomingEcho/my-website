@@ -1,0 +1,51 @@
+.vic-e-target-group-switch {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid $vic-color__black-020;
+  border-radius: 120px;
+  background: $vic-color__black-020;
+  opacity: 0;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out, background 0.3s ease-in-out;
+
+  @include vic-focus-ring(6px, 120px, $vic-color__black-020);
+
+  &:focus {
+    outline: 0;
+  }
+
+  &:active {
+    background: $vic-color__black-030;
+  }
+
+  &:before {
+    border-width: 2px;
+  }
+
+  &.vic-state-loaded {
+    opacity: 1;
+  }
+
+  &__option {
+    @extend %vic-type__button-label--small;
+
+    padding: 4px 16px;
+    border-radius: 120px;
+    margin: 0;
+    color: $vic-color__black-090;
+    background: transparent;
+    transition: color 0.3s ease-in-out, background 0.3s ease-in-out;
+    user-select: none;
+
+    :hover > &:not(.vic-state-active),
+    .vic-h-keyboard-focus :focus > &:not(.vic-state-active) {
+      text-decoration: underline;
+    }
+
+    &.vic-state-active {
+      color: $vic-color__white;
+      background: $vic-color__black-090;
+    }
+  }
+}

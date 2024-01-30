@@ -1,0 +1,43 @@
+name: Styleguide
+
+excludeDir:
+  - dist
+  - docs
+  - styleguide
+
+theme:
+  logo: "target/lsg_assets/img/viessmann-logo.svg"
+  css: 
+    - "target/lsg_assets/css/lsg-base-styles.css"
+  sidebar:
+    background: "#ff3e17"
+    textColor: "#fff"
+
+examples:
+  headHtml: |
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/vic.lsg.css" type="text/css">
+    <link rel="stylesheet" href="../css/vic.app.css" type="text/css">
+
+  doctypeTag: <!DOCTYPE html>
+
+  htmlTag: <html lang="de">
+
+  bodyTag: <body>
+
+  bodyHtml: |
+    {html}
+    <div id="vic-app-config" data-config-url="/api/configuration"></div>
+    <script nomodule src="../js/vic.app.legacy.js"></script>
+    <script type="module" src="../js/vic.app.js"></script>
+    <script type="module" src="../js/vic.lsg.js"></script>
+
+order:
+- Basics
+- Atoms
+- Form Elements
+- Molecules
+- Components
+- Related Components
+- Navigation Components
+- Hero Components

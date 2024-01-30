@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>panama</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flags" transform="translate(-1260.000000, -4500.000000)">
+            <g id="panama" transform="translate(1260.000000, 4500.000000)">
+                <circle id="white" fill="#FFFFFF" cx="90" cy="90" r="90"></circle>
+                <path d="M0,90 C0,139.705594 40.2943126,179.999943 89.9998936,180 L90,90 L0,90 L0,90 L0,90 L0,90 L0,90 Z" id="blue" fill="#227FBB"></path>
+                <path d="M180,90 C180,40.2943701 139.70563,1.7894295e-14 90,0 L90,90 L180,90 L180,90 L180,90 L180,90 L180,90 Z" id="red" fill="#E94B35"></path>
+                <polygon id="star-blue" fill="#227FBB" points="56.6210559 68.8504652 45.1126116 75 47.3105283 61.9750775 38 52.7507766 50.8668357 50.8504639 56.6210566 39 62.3752813 50.8504671 75.2421164 52.7507863 65.9315836 61.9750801 68.1295009 75"></polygon>
+                <polygon id="star-red" fill="#E94B35" points="123.621056 134.850465 112.112612 141 114.310528 127.975078 105 118.750777 117.866836 116.850464 123.621057 105 129.375281 116.850467 142.242116 118.750786 132.931584 127.97508 135.129501 141"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

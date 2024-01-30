@@ -1,0 +1,41 @@
+---
+layout: default
+linkHref: "#top"
+linkLabel: Link Label
+linkIcon: vic-icon-chevron-right
+linkIconLeft: true
+target: "_blank"
+---
+
+
+{{#if this.isLinkButton}}
+  <button class="vic-e-link
+            {{#if linkIconLeft}}vic-e-link--icon-left{{/if}}
+            {{cssClasses}}"
+          {{#if disabled}}disabled{{/if}}>
+    {{#if linkLabel}}
+      <span class="vic-e-link__label">{{linkLabel}}</span>
+    {{/if}}
+
+    {{#if linkIcon}}
+      <vic-e-icon class="vic-e-icon vic-e-link__icon" icon-id="{{this.linkIcon}}"></vic-e-icon>
+    {{/if}}
+  </button>
+{{else}}
+  <a class="vic-e-link
+            {{#if linkIconLeft}}vic-e-link--icon-left{{/if}}
+            {{cssClasses}}"
+    href="{{linkHref}}"
+    {{#if disabled}}disabled{{/if}}
+    target="{{#if target}}{{target}}{{else}}_self{{/if}}">
+
+    {{#if linkLabel}}
+      <span class="vic-e-link__label">{{linkLabel}}</span>
+    {{/if}}
+
+    {{#if linkIcon}}
+      <vic-e-icon class="vic-e-icon vic-e-link__icon" icon-id="{{this.linkIcon}}"></vic-e-icon>
+    {{/if}}
+
+  </a>
+{{/if}}

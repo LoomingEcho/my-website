@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>congo_republic</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flags" transform="translate(-2340.000000, -1260.000000)">
+            <g id="congo_republic" transform="translate(2340.000000, 1260.000000)">
+                <path d="M170.429783,49.5702174 C161.744042,32.3249342 147.675066,18.2559576 130.429783,9.57021741 L9.57021741,130.429783 C18.2559576,147.675066 32.3249342,161.744042 49.5702174,170.429783 L170.429783,49.5702174 L170.429783,49.5702174 Z" id="yellow" fill="#F2C500"></path>
+                <path d="M130.429783,9.57021741 L9.57021741,130.429783 C3.44772349,118.27375 0,104.539505 0,90 C0,40.2943701 40.2943701,0 90,0 C104.539505,0 118.27375,3.44772349 130.429783,9.57021741 L130.429783,9.57021741 Z" id="green" fill="#1AAF5D"></path>
+                <path d="M170.429783,49.5702174 L49.5702174,170.429783 C61.7262501,176.552277 75.4604953,180 90,180 C139.70563,180 180,139.70563 180,90 C180,75.4604953 176.552277,61.7262501 170.429783,49.5702174 L170.429783,49.5702174 Z" id="red" fill="#E94B35"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "strict": true,
+    "target": "es2017",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strictPropertyInitialization": false,
+    "experimentalDecorators": true,
+    "noUnusedLocals": true,
+    "sourceMap": true,
+    "allowJs": false,
+    "baseUrl": "./",
+    "paths": {
+      "Core/*": ["src/js/core/*"],
+      "Services/*": ["src/js/services/*"],
+      "Constants/*": ["src/js/constants/*"],
+      "Helper/*": ["src/js/helper/*"],
+      "Components/*": ["src/components/*"],
+      "Config/*": ["src/js/config/*"],
+      "Abstracts/*": ["src/components/abstract/*"],
+      "Interfaces/*": ["src/js/interfaces/*"],
+      "Icons/*": ["resources/icons/*"]
+    }
+  }
+}

@@ -1,0 +1,82 @@
+.vic-e-link {
+  display: inline-block;
+  padding: 0;
+  border: 1px solid transparent;
+  outline: 0;
+  color: $vic-color__red-050;
+  background: transparent;
+  text-decoration: none;
+  line-height: 20px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+
+  &:active {
+    color: $vic-color__red-070;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+
+  .vic-h-keyboard-focus &:focus {
+    border: 1px solid $vic-color__red-020;
+    border-radius: 2px;
+    outline: none;
+  }
+
+  &[disabled] {
+    color: $vic-color__black-030;
+    pointer-events: none;
+  }
+
+  &--icon-left {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+
+  &--meta {
+    color: $vic-color__black-050;
+  }
+
+  &__label {
+    @extend %vic-type__button-label;
+
+    color: inherit;
+    line-height: inherit;
+
+    .vic-e-link:hover & {
+      text-decoration: underline;
+    }
+
+    .vic-e-link--meta > & {
+      @extend %vic-type__navigation-items;
+    }
+  }
+
+  &__icon {
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    margin-right: 0;
+    margin-left: 4px;
+
+    .vic-e-link--icon-left > & {
+      top: 3px;
+      margin-right: 4px;
+      margin-left: 0;
+    }
+
+    .vic-e-link--meta > & {
+      top: 0;
+      width: 10px;
+      height: 10px;
+    }
+
+    .vic-e-link--icon-left.vic-e-link--meta > & {
+      top: 4px;
+    }
+  }
+}

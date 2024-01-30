@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>vietnam</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flags" transform="translate(-1260.000000, -6390.000000)">
+            <g id="vietnam" transform="translate(1260.000000, 6390.000000)">
+                <circle id="red" fill="#E94B35" cx="90" cy="90" r="90"></circle>
+                <polygon id="star" fill="#F2C500" points="90 108.900001 63.5496636 126.405765 72.0250311 95.8404214 47.2024568 76.0942353 78.8908583 74.7095782 90 45 101.109142 74.7095782 132.797543 76.0942353 107.974969 95.8404214 116.450336 126.405765"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

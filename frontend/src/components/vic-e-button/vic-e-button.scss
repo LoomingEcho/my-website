@@ -1,0 +1,130 @@
+.vic-e-button {
+  @extend %vic-type__button-label;
+
+  position: relative;
+  display: inline-block;
+  padding: 19px 56px;
+  border: none;
+  border-radius: 120px;
+  color: $vic-color__white;
+  background: $vic-color__red-050;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out, border 0.3s ease-in-out;
+
+  &:hover {
+    background: $vic-color__red-070;
+  }
+
+  &:active {
+    background: $vic-color__red-060;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  .vic-h-keyboard-focus &:focus {
+    &:before {
+      opacity: 1;
+    }
+  }
+
+  &[disabled] {
+    background: $vic-color__black-030;
+    pointer-events: none;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
+    border: 2px solid $vic-color__red-020;
+    border-radius: 120px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  &--small {
+    padding: 11px 32px;
+  }
+
+  &.vic-e-button--icon-only {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    align-items: center; // center icon
+    justify-content: center;
+    padding: 0; // reset vic-e-button's padding
+
+    .vic-e-icon {
+      width: 18px;
+      height: 18px;
+    }
+
+    &.vic-e-button--small {
+      width: 32px;
+      height: 32px;
+
+      .vic-e-icon {
+        width: 14px;
+        height: 14px;
+      }
+    }
+  }
+}
+
+.vic-e-button--secondary {
+  background: $vic-color__black-090;
+
+  &:hover {
+    background: $vic-color__black-080;
+  }
+
+  &:active {
+    background: $vic-color__black-060;
+  }
+
+  &:before {
+    border: 2px solid $vic-color__black-030;
+  }
+}
+
+.vic-e-button--tertiary {
+  border: 1px solid $vic-color__black-030;
+  color: $vic-color__black-090;
+  background: $vic-color__white;
+
+  &:hover {
+    border-color: $vic-color__black-070;
+    background: $vic-color__white;
+  }
+
+  &:active {
+    border-color: $vic-color__black-070;
+    background: $vic-color__black-010;
+  }
+
+  &[disabled] {
+    border: 1px solid $vic-color__black-030;
+    color: $vic-color__black-040;
+    background: $vic-color__white;
+    pointer-events: none;
+  }
+
+  .vic-h-keyboard-focus &:focus {
+    border-color: $vic-color__black-070;
+  }
+
+  &:before {
+    top: -6px;
+    left: -6px;
+    width: calc(100% + 12px);
+    height: calc(100% + 12px);
+    border: 2px solid $vic-color__black-030;
+  }
+}

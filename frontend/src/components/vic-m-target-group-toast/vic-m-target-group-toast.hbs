@@ -1,0 +1,37 @@
+---
+layout: default
+headline: "Do you want to switch to Professionals Mode?"
+text: "Switching to Professional Mode adds additional sections and information for contractors, engineers and architects."
+---
+
+<vic-m-target-group-toast class="vic-m-target-group-toast vic-state-open">
+  <div class="vic-m-target-group-toast__content">
+    <button class="vic-m-target-group-toast__close-btn" aria-label="Close Overlay">
+      {{> vic-e-icon 
+        cssClasses="vic-m-target-group-toast__close-icon"
+        iconId="vic-icon-close"
+      }}
+    </button>
+    <h3 class="vic-m-target-group-toast__headline">{{this.headline}}</h3>
+    <p class="vic-m-target-group-toast__text">{{this.text}}</p>
+    {{> vic-e-button
+      isRealButton=true
+      cssClasses="vic-m-target-group-toast__selection-cta vic-m-target-group-toast__selection-cta--switch-and-stay"
+      label="Switch and stay on this page"
+    }}
+    {{> vic-e-button
+      cssClasses="vic-m-target-group-toast__selection-cta vic-m-target-group-toast__selection-cta--switch-and-go"
+      label="Switch and go to Home page"
+      href="#"
+    }}
+    <button class="vic-e-link vic-m-target-group-toast__stay-cta">
+      <span class="vic-e-link__label">
+        Stay in Homeowners Mode
+      </span>
+      {{> vic-e-icon 
+        cssClasses="vic-e-link__icon"
+        iconId="vic-icon-chevron-right"
+      }}
+    </button>
+  </div>
+</vic-m-target-group-toast>

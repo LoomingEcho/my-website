@@ -1,0 +1,15 @@
+target/
+node/
+node_modules/
+.temp/
+
+.settings
+.project
+.DS_Store
+.rubygems
+.sass-cache
+
+npm-debug.log
+
+*.sublime-*
+*.code-*

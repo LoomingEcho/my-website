@@ -1,0 +1,43 @@
+.vic-lsg-grid-demo {
+  padding: 20px 0;
+
+  [class*="vic-grid-col-"] {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    background: $vic-color__black-020;
+    text-align: center;
+  }
+
+  [class*="vic-grid-col-"] > div:not(.vic-grid-row) {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  [class*="vic-grid-col-"] small {
+    display: block;
+    color: $vic-color__black-050;
+    font-size: 10px;
+  }
+
+  .vic-grid-row .vic-grid-row {
+    outline: 0;
+  }
+
+  [class*="vic-grid-col-"] [class*="vic-grid-col-"] {
+    border: none;
+    background: $vic-color__black-040;
+  }
+}
+
+.vic-lsg-grid-demo--responsive {
+  [class*="vic-grid-col-"] {
+    display: flex;
+    min-height: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}

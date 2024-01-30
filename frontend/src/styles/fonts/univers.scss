@@ -1,0 +1,94 @@
+// Univers
+@font-face {
+  font-family: "Univers";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("../../resources/fonts/univers/UniversLTCYRW10-45Light.woff2") format("woff2"),
+    url("../../resources/fonts/univers/UniversLTCYRW10-45Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Univers";
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+  src: url("../../resources/fonts/univers/UniversLTCYRW05-45LightObl.woff2") format("woff2"),
+    url("../../resources/fonts/univers/UniversLTCYRW05-45LightObl.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Univers";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("../../resources/fonts/univers/UniversLTCYRW05-55Roman.woff2") format("woff2"),
+    url("../../resources/fonts/univers/UniversLTCYRW05-55Roman.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Univers";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("../../resources/fonts/univers/UniversLTCYRW05-55Oblique.woff2") format("woff2"),
+    url("../../resources/fonts/univers/UniversLTCYRW05-55Oblique.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Univers";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("../../resources/fonts/univers/UniversLTCYRW05-65Bold.woff2") format("woff2"),
+    url("../../resources/fonts/univers/UniversLTCYRW05-65Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Univers";
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+  src: url("../../resources/fonts/univers/UniversLTCYRW05-67BoldCnObl.woff2") format("woff2"),
+    url("../../resources/fonts/univers/UniversLTCYRW05-67BoldCnObl.woff") format("woff");
+}
+
+// Univers Condensed
+@font-face {
+  font-family: "Univers Condensed";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("../../resources/fonts/univers/UniversLTCYRW10-47LightCond.woff2") format("woff2"),
+    url("../../resources/fonts/univers/UniversLTCYRW10-47LightCond.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Univers Condensed";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("../../resources/fonts/univers/UniversLTCYRW05-57Condensed.woff2") format("woff2"),
+    url("../../resources/fonts/univers/UniversLTCYRW05-57Condensed.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Univers Condensed";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("../../resources/fonts/univers/UniversLTCYRW05-67BoldCond.woff2") format("woff2"),
+    url("../../resources/fonts/univers/UniversLTCYRW05-67BoldCond.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Univers Condensed";
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+  src: url("../../resources/fonts/univers/UniversLTW04-67BoldCondObl.woff2") format("woff2"),
+    url("../../resources/fonts/univers/UniversLTW04-67BoldCondObl.woff") format("woff");
+}
+
+$vic-typo__univers: "Univers", sans-serif;
+$vic-typo__univers-condensed: "Univers Condensed", sans-serif;

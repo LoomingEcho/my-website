@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>togo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flags" transform="translate(-1260.000000, -5850.000000)">
+            <g id="togo" transform="translate(1260.000000, 5850.000000)">
+                <circle id="green" fill="#1AAF5D" cx="90" cy="90" r="90"></circle>
+                <path d="M0,90 C0,96.1643852 0.619744581,102.184021 1.80032584,108 L70,108 L70,2.23016395 C29.9202246,11.3247465 0,47.1682498 0,90 Z" id="red" fill="#E94B35"></path>
+                <polygon id="star" fill="#FFFFFF" points="38.9999997 63.3000001 27.8320811 71.2758321 31.7719705 57.9103329 20.9299261 49.474169 34.5328334 49.1896663 39.0000002 36 43.4671696 49.1896686 57.0700769 49.4741783 46.2280289 57.9103348 50.1679185 71.2758323"></polygon>
+                <path d="M162.006593,144 C169.867453,133.534609 175.499958,121.299797 178.199674,108 L1.80032584,108 C4.50004189,121.299797 10.1325469,133.534609 17.9934071,144 L162.006593,144 Z" id="yellow" fill="#F2C500"></path>
+                <path d="M70,72 L70,36 L162.006593,36 C169.867453,46.4653913 175.499958,58.7002026 178.199674,72 L70,72 Z" id="yellow" fill="#F2C500"></path>
+            </g>
+        </g>
+    </g>
+</svg>

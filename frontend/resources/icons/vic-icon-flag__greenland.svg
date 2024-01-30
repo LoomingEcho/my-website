@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>greenland</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flags" transform="translate(-990.000000, -2340.000000)">
+            <g id="greenland" transform="translate(990.000000, 2340.000000)">
+                <path d="M179.994476,91.007569 C179.454335,140.24902 139.36934,180 90,180 C40.2943701,180 0,139.70563 0,90 L179.994476,90 L179.994476,91.0075943 L179.994476,91.007569 Z" id="red" fill="#E94B35"></path>
+                <path d="M180,89.992103 C179.995732,40.2901023 139.702998,0 90,0 C40.63065,0 0.545648249,39.7509969 0.00552338288,88.992462 L0.00552366097,90 L180,90 L180,89.992103 Z" id="white" fill="#FFFFFF"></path>
+                <path d="M109.997238,90.5037845 C109.727167,115.12451 89.6846698,135 65,135 C40.147185,135 20,114.852815 20,90 L109.997238,90 L109.997238,90.5037971 L109.997238,90.5037845 Z" id="white" fill="#FFFFFF"></path>
+                <path d="M110,89.9960515 C109.997866,65.1450511 89.8514988,45 65,45 C40.315325,45 20.2728241,64.8754984 20.0027617,89.496231 L20.0027618,90 L110,90 L110,89.9960515 Z" id="red" fill="#E94B35"></path>
+            </g>
+        </g>
+    </g>
+</svg>

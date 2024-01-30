@@ -1,0 +1,12 @@
+{{#pv-typos "src/styles/typography.scss" "%vic-type__" this}}
+  <{{this.placeholderTag}} class="vic-{{this.name}}"
+                           style="cursor: pointer"
+                           onclick="copyToClipboard('{{this.var}}', 'scss-var')"
+                           title="Copy scss-var to Clipboard!">
+    {{#if this.placeholderText}}
+      {{this.placeholderText}}
+    {{else}}
+      {{pv-lorem this.placeholderWordCount}}
+    {{/if}}
+  </{{this.placeholderTag}}>
+{{/pv-typos}}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>chile</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flags" transform="translate(-450.000000, -1260.000000)">
+            <g id="chile" transform="translate(450.000000, 1260.000000)">
+                <path d="M180,90 L0,90 C0,139.70563 40.2943701,180 90,180 C139.705526,180 179.999831,139.705799 180,90.0003125 C180,90.0003125 179.999831,139.705799 180,90.0003125 L180,90 L180,90 L180,90 Z" id="red" fill="#E94B35"></path>
+                <path d="M180,90 L90,90 L90,0 C139.70563,1.7894295e-14 180,40.2943701 180,90 C180,90 180,40.2943701 180,90 L180,90 L180,90 L180,90 Z" id="white" fill="#FFFFFF"></path>
+                <path d="M90,0 C40.2943701,0 2.68414424e-14,40.2943701 0,90 L90,90 L90,0 L90,0 L90,0 L90,0 L90,0 Z" id="blue" fill="#227FBB"></path>
+                <polygon id="star" fill="#FFFFFF" points="51.5 65.549845 37.4087 73.079528 40.0998982 57.1314049 28.6997953 45.8368817 44.454352 43.5100798 51.5000008 29 58.5456539 43.5100833 74.3002094 45.8368933 62.9001018 57.1314079 65.5913006 73.0795283"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

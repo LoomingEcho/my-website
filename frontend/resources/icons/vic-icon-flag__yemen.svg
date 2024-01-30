@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>yemen</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flags" transform="translate(-2070.000000, -6390.000000)">
+            <g id="yemen" transform="translate(2070.000000, 6390.000000)">
+                <circle id="white" fill="#FFFFFF" cx="90" cy="90" r="90"></circle>
+                <path d="M174.878833,120 L5.12116698,120 C17.4762623,154.955772 50.8134331,180 90,180 C129.186567,180 162.523738,154.955772 174.878829,120 L174.878833,120 Z" id="black" fill="#000000"></path>
+                <path d="M5.12116698,60 L174.878833,60 C162.523738,25.0442275 129.186567,0 90,0 C50.8134331,0 17.4762623,25.0442275 5.12117078,59.9999996 L5.12116698,60 Z" id="red" fill="#E94B35"></path>
+            </g>
+        </g>
+    </g>
+</svg>

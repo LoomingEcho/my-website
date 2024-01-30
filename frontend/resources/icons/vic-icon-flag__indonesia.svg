@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>indonesia</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flags" transform="translate(-2070.000000, -2610.000000)">
+            <g id="indonesia" transform="translate(2070.000000, 2610.000000)">
+                <path d="M179.787572,89.8420959 C179.787608,89.8752924 179.787626,89.9084931 179.787626,89.9416981 C179.787626,139.615129 139.577323,179.883396 89.9753957,179.883396 C40.3734681,179.883396 0.163165468,139.615129 0.163165468,89.9416981 C0.163165468,89.9084931 0.163183435,89.8752924 0.163219362,89.8420959 L179.787576,89.8420959 L179.787576,89.8420959 L179.787572,89.8420959 L179.787572,89.8420959 L179.787572,89.8420959 Z" id="white" fill="#FFFFFF"></path>
+                <path d="M179.787572,89.8420959 C179.733863,40.2144496 139.544166,0 89.9753957,0 C40.4066253,0 0.21692798,40.2144496 0.163219362,89.8420959 L179.787576,89.8420959 L179.787576,89.8420959 L179.787572,89.8420959 L179.787572,89.8420959 L179.787572,89.8420959 Z" id="red" fill="#E94B35"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,86 @@
+@mixin vic-h-flex-center-mixin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  // IE can not center correctly when flex child has any margins
+  > * {
+    margin: 0;
+  }
+}
+
+@mixin vic-focus-ring(
+  $offset: 5px,
+  $borderRadius: 120px,
+  $color: $vic-color__red-050,
+  $focusClass: null,
+  $borderWidth: 2px
+) {
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: -$offset;
+    left: -$offset;
+    width: calc(100% + #{$offset * 2});
+    height: calc(100% + #{$offset * 2});
+    border: $borderWidth solid $color;
+    border-radius: $borderRadius;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  /* stylelint-disable */
+  @if $focusClass {
+    &#{$focusClass} {
+      &:before {
+        opacity: 1;
+      }
+    }
+  } @else {
+    .vic-h-keyboard-focus &:focus {
+      &:before {
+        opacity: 1;
+      }
+    }
+  }
+  /* stylelint-enable */
+}
+
+%vic-disable-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+%vic-hover-text-shadow {
+  text-shadow: 0 0 0 currentColor, 0 0 0 currentColor, 0 0 0 currentColor;
+}
+
+%vic-component-margin {
+  margin-bottom: 40px;
+
+  @include breakpoint($mq-3-and-up) {
+    margin-bottom: 80px;
+  }
+
+  @include breakpoint($mq-4-and-up) {
+    margin-bottom: 120px;
+  }
+
+  &.vic-component--content-margin {
+    margin-bottom: 56px;
+  }
+
+  .vic-m-accordion & {
+    margin-bottom: 20px;
+  }
+}

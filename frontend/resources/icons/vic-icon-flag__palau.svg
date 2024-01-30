@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>palau</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flags" transform="translate(-720.000000, -4500.000000)">
+            <g id="palau" transform="translate(720.000000, 4500.000000)">
+                <circle id="aqua" fill="#4BB7C0" transform="translate(90.000000, 90.000000) scale(1, -1) translate(-90.000000, -90.000000) " cx="90" cy="90" r="90"></circle>
+                <circle id="yellow" fill="#F2C500" cx="77" cy="90" r="53"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

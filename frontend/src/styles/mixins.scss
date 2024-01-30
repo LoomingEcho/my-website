@@ -1,0 +1,89 @@
+/**
+ * Mixin to keep aspect ratio placeholder for preloader
+ *
+ * @mixin
+ * @section Image-Handling
+ * @example
+ *  @include aspect-ratio($width, $height);
+ */
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+
+  &:before {
+    content: "";
+    display: block;
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+    pointer-events: none;
+  }
+
+  > .vic-e-lazy-image__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+/**
+ * Crossbrowser transition
+ *
+ * @mixin
+ * @section Crossbrowser Mixins
+ * @example
+ *  @include transition($transition...);
+ */
+@mixin transition($transition...) {
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  transition: $transition;
+}
+
+/**
+ * Animated loading for lazy image and video
+ */
+@mixin loading-shimmer {
+  &.vic-state-invp {
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 10%;
+      width: 40%;
+      height: 100%;
+      background: linear-gradient(to right, $vic-color__black-090 0%, $vic-color__black-040 100%);
+      background-size: 100%;
+      animation-duration: 2s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: infinite;
+      animation-name: loadingShimmer;
+      animation-timing-function: ease-in-out;
+    }
+  }
+  &.vic-state-loaded {
+    &:after {
+      display: none;
+    }
+  }
+}
+
+/**
+ * CSS3 calc SASS mixin
+ */
+@mixin calc($property, $expression) {
+  #{$property}: -moz-calc(#{$expression});
+  #{$property}: -webkit-calc(#{$expression});
+  #{$property}: calc(#{$expression});
+}
+
+/**
+ * CSS3 line-clamp SASS mixin supported in all browsers except IE11
+ * see https://css-tricks.com/almanac/properties/l/line-clamp/
+ */
+@mixin vic-line-clamp($lineCount: 3) {
+  // stylelint-disable value-no-vendor-prefix
+  display: -webkit-box;
+  // stylelint-enable value-no-vendor-prefix
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: #{$lineCount};
+}
