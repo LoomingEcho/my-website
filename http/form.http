@@ -1,0 +1,11 @@
+# curl  -i -X POST 'https://admin.hlx.page/form/loomingecho/my-website/main/en/email-form.json'
+#--header 'Content-Type: application/json'
+#--data '{"data":{"firstName":"test"}}'
+POST https://admin.hlx.page/form/loomingecho/my-website/main/apply.json
+Content-Type: application/json
+
+{"data":{"firstName":"test"}}
+
+###
+
+GET https://admin.hlx.page/form/loomingecho/my-website/main/apply.json
